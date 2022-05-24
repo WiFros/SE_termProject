@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.LEGENO.SaveTheTime">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".DeleteGroup"
+            android:theme="@style/AppTheme.MyDialog" />
+        <activity
+            android:name=".ChangeGroupManager"
+            android:theme="@style/AppTheme.MyDialog" />
+        <activity
+            android:name=".SchedulePopUp"
+            android:parentActivityName=".Calendar_main"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".DateSelection"
+            android:theme="@style/AppTheme.MyDialog" />
+        <activity android:name=".CreateSchedule" />
+        <activity android:name=".JoinGroup" />
+        <activity android:name=".Loading" />
+        <activity android:name=".Calendar_main" />
+        <activity android:name=".ManageGroup" />
+        <activity android:name=".Setting" />
+        <activity android:name=".ConfirmWithdrawal" />
+        <activity android:name=".ConfirmDeleteAllSchedule" />
+        <activity
+            android:name=".CreateGroup"
+            android:theme="@style/AppTheme.MyDialog" />
+        <activity
+            android:name=".Withdrawal"
+            android:theme="@style/AppTheme.MyDialog" />
+        <activity
+            android:name=".ChangeGroupName"
+            android:theme="@style/AppTheme.MyDialog" />
+        <activity
+            android:name=".RecommendSchedule"
+            android:theme="@style/AppTheme.MyDialog" />
+
+
+
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActicity"
+            android:label="@string/app_name"
+            android:parentActivityName=".LoginActivity" />
+
+    </application>
+
+</manifest>
