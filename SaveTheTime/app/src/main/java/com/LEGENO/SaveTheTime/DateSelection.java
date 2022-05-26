@@ -27,7 +27,7 @@ public class DateSelection extends AppCompatActivity {
 
 
         final MaterialCalendarView calenderView = findViewById(R.id.calendarView);
-        // calender set up
+        // 달력 설정
         calenderView.setTopbarVisible(true);
 
         calenderView.state().edit()
