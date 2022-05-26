@@ -81,6 +81,7 @@ public class RecommendSchedule extends AppCompatActivity {
         datePicker = findViewById(R.id.date_picker_recommend);
         datePicker.init(year, month - 1, day, new DatePicker.OnDateChangedListener() {
             @Override
+            // 데이터 변경시
             public void onDateChanged(DatePicker view, int year_, int monthOfYear, int dayOfMonth) {
                 year = year_;
                 month = monthOfYear +1;

@@ -75,10 +75,10 @@ public class ManageGroup extends AppCompatActivity {
 
         groupName.setText(gName);
 
-        // 그룹 아이디 불러와서 set 해주세요
+        // 그룹 아이디 불러와서 set
         groupID.setText(gId);
 
-        // 그룹장 불러와서 set 해주세요
+        // 그룹리더 불러와서 set
         masterName.setText("모바일");
 
 
