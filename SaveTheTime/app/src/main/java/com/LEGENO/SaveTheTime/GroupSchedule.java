@@ -1,6 +1,5 @@
 package com.LEGENO.SaveTheTime;
 
-// 사실상 보여주는 때만 쓸 듯
 public class GroupSchedule extends Schedule{
     private String groupID = "";
     private String groupName = "";
