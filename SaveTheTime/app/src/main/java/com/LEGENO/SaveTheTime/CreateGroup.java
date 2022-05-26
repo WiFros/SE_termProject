@@ -43,7 +43,8 @@ public class CreateGroup extends AppCompatActivity {
                 String name = gr_name.getText().toString();
             //    String number = gr_number.getText().toString(); 그룹 인원 수
 
-                if (name != "") {
+                //이름 공백체크크
+               if (name != "") {
                     createGroup(name);
                 } else {
                     Toast.makeText(getApplicationContext(), "이름을 입력하세요", Toast.LENGTH_SHORT).show();
@@ -51,6 +52,7 @@ public class CreateGroup extends AppCompatActivity {
             }
         });
 
+        //취소 버튼 이벤트
         Button button_no = (Button) findViewById(R.id.bt_no);
         button_no.setOnClickListener(new View.OnClickListener() {
             @Override
