@@ -17,7 +17,7 @@
         android:textSize="30sp"
         android:layout_marginLeft="15dp"
         android:text="group 1"
-        android:fontFamily="@font/font"
+        android:fontFamily="@font/font_2"
         android:id="@+id/menulisttext"
         />
 

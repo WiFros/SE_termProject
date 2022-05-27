@@ -11,7 +11,7 @@
     <TextView
         android:text="그룹명 변경"
         android:textSize="30dp"
-        android:fontFamily="@font/font"
+        android:fontFamily="@font/font_2"
         android:layout_gravity="center_horizontal"
         android:textColor="@color/colorPrimary"
         android:layout_width="wrap_content"
@@ -29,14 +29,14 @@
             android:text="그룹 이름 :"
             android:textSize="20dp"
             android:gravity="right"
-            android:fontFamily="@font/font"
+            android:fontFamily="@font/font_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <EditText
             android:id="@+id/gr_name"
             android:hint="이름을 입력하세요."
-            android:fontFamily="@font/font"
+            android:fontFamily="@font/font_2"
             android:layout_width="200dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
@@ -49,7 +49,7 @@
             android:id="@+id/bt_ok"
             android:text="입력완료"
             android:textSize="20dp"
-            android:fontFamily="@font/font"
+            android:fontFamily="@font/font_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
@@ -59,7 +59,7 @@
             android:text="뒤로가기"
             android:layout_marginLeft="10dp"
             android:textSize="20dp"
-            android:fontFamily="@font/font"
+            android:fontFamily="@font/font_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>

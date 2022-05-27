@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:fontFamily="@font/font"
+        android:fontFamily="@font/font_2"
         android:text="Add Group"
         android:textColor="#ffffff"
         android:textSize="25sp" />
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="150dp"
-        android:fontFamily="@font/font"
+        android:fontFamily="@font/font_2"
         android:text="Join Group"
         android:textColor="#ffffff"
         android:textSize="20sp" />
@@ -49,7 +49,7 @@
         android:drawableLeft="@drawable/ic_group_add"
         android:drawablePadding="8dp"
         android:drawableTint="#E6FFFFFF"
-        android:fontFamily="@font/font"
+        android:fontFamily="@font/font_2"
         android:hint="Group ID"
         android:paddingLeft="12dp"
         android:textColor="@color/colorWhite"
@@ -68,7 +68,7 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:background="@drawable/login_button"
-            android:fontFamily="@font/font"
+            android:fontFamily="@font/font_2"
             android:text="Create"
             android:textColor="#ffffff"
             android:textSize="18sp" />
@@ -82,7 +82,7 @@
             android:layout_marginRight="55dp"
             android:layout_weight="1"
             android:background="@drawable/login_button"
-            android:fontFamily="@font/font"
+            android:fontFamily="@font/font_2"
             android:text="Join"
             android:textColor="#ffffff"
             android:textSize="18sp" />

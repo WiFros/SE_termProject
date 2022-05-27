@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:fontFamily="@font/font"
+        android:fontFamily="@font/font_2"
         android:text="정말로 회원 탈퇴를 하시겠습니까?"
         android:textColor="#ffffff"
         android:textSize="25sp" />
@@ -42,7 +42,7 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:background="@drawable/login_button"
-            android:fontFamily="@font/font"
+            android:fontFamily="@font/font_2"
             android:text="확인"
             android:textColor="#ffffff"
             android:textSize="18sp" />
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:background="@drawable/login_button"
-            android:fontFamily="@font/font"
+            android:fontFamily="@font/font_2"
             android:text="취소"
             android:textColor="#ffffff"
             android:textSize="18sp" />

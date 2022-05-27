@@ -28,7 +28,7 @@
             android:text="   그룹"
             android:layout_marginTop="150dp"
             android:padding="10dp"
-            android:fontFamily="@font/font"
+            android:fontFamily="@font/font_2"
             android:textSize="20sp"
             android:background="@drawable/textlines"
             />
@@ -50,7 +50,7 @@
             android:layout_marginBottom="10dp"
             android:id="@+id/add_group"
             android:textSize="20sp"
-            android:fontFamily="@font/font"
+            android:fontFamily="@font/font_2"
             android:text="그룹 추가"
             android:drawablePadding="10dp"
             android:drawableLeft="@drawable/ic_group_add"

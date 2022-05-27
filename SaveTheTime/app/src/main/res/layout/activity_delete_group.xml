@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:fontFamily="@font/font"
+        android:fontFamily="@font/font_2"
         android:text="그룹 삭제"
         android:textColor="@color/colorPrimary"
         android:textSize="30dp" />
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:fontFamily="@font/font"
+        android:fontFamily="@font/font_2"
         android:text="그룹을 삭제하시겠습니까 ?"
         android:textSize="20dp" />
 
@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:fontFamily="@font/font"
+        android:fontFamily="@font/font_2"
         android:text="!!!주의, 모든 그룹 정보가 삭제 됩니다!!!"
         android:textColor="#ff5555"
         android:textSize="20dp" />
@@ -45,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:fontFamily="@font/font"
+            android:fontFamily="@font/font_2"
             android:text="Yes"
             android:textSize="20dp" />
 
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="15dp"
-            android:fontFamily="@font/font"
+            android:fontFamily="@font/font_2"
             android:text="No"
             android:textSize="20dp" />
     </LinearLayout>
