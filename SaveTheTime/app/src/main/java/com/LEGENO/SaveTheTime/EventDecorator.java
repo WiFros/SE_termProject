@@ -10,6 +10,7 @@ import com.prolificinteractive.materialcalendarview.DayViewFacade;
 import java.time.LocalDate;
 import java.util.List;
 
+// 이벤트 탐지
 public class EventDecorator implements DayViewDecorator {
     private Drawable drawble;
     boolean isGroup;

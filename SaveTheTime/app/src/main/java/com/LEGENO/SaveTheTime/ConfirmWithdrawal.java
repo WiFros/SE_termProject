@@ -17,7 +17,7 @@ public class ConfirmWithdrawal extends AppCompatActivity {
         setContentView(R.layout.confirm_withdrawal);
 
 
-        //회원탈퇴 기능 추가해야해요ㅠ
+        //회원탈퇴 기능 추가 요망
         Button confirm=findViewById(R.id.confirm1);
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override

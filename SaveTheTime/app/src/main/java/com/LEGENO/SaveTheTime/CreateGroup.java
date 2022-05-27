@@ -43,7 +43,8 @@ public class CreateGroup extends AppCompatActivity {
                 String name = gr_name.getText().toString();
             //    String number = gr_number.getText().toString(); 그룹 인원 수
 
-                if (name != "") {
+                //이름 공백체크크
+               if (name != "") {
                     createGroup(name);
                 } else {
                     Toast.makeText(getApplicationContext(), "이름을 입력하세요", Toast.LENGTH_SHORT).show();
@@ -51,6 +52,7 @@ public class CreateGroup extends AppCompatActivity {
             }
         });
 
+        //취소 버튼 이벤트
         Button button_no = (Button) findViewById(R.id.bt_no);
         button_no.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -92,6 +94,7 @@ public class CreateGroup extends AppCompatActivity {
 
             db.collection("Group").add(docData).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                 @Override
+                //생성 성공
                 public void onSuccess(DocumentReference documentReference) {
                     Log.d("CreateGroup", "DocumentSnapshot written with ID: " + documentReference.getId());
                     Toast.makeText(getApplicationContext(), "그룹이 성공적으로 생성 되었습니다.", Toast.LENGTH_SHORT).show();
@@ -99,6 +102,7 @@ public class CreateGroup extends AppCompatActivity {
                 }
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
+                //생성 실패
                 public void onFailure(@NonNull Exception e) {
                     Log.w("CreateGroup", "Error adding document", e);
                     Toast.makeText(getApplicationContext(), "DB 에러, 잠시후 다시 시도하세요.", Toast.LENGTH_SHORT).show();

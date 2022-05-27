@@ -17,7 +17,7 @@ public class ConfirmDeleteAllSchedule extends AppCompatActivity {
 
 
 
-        //일정 전체삭제 기능 추가해야합니다ㅠ
+        //일정 전체삭제 기능 추가 요망
         Button confirm=findViewById(R.id.confirm2);
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override

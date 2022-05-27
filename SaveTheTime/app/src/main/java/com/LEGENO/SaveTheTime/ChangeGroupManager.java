@@ -19,6 +19,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.ArrayList;
 
+//Change group
 public class ChangeGroupManager extends AppCompatActivity {
     ListView memberListView;
     ArrayAdapter<String> adapter;

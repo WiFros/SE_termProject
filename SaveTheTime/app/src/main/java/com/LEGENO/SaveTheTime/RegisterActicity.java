@@ -17,6 +17,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
 
+//회원가입
 public class RegisterActicity extends AppCompatActivity {
     private EditText emailJoin;
     private EditText pwdJoin;

@@ -134,7 +134,7 @@ public class Calendar_main extends AppCompatActivity implements NavigationView.O
 
         Nametxt.setText(userName);
         Emailtxt.setText(userEmail);
-//        new DownloadFilesTask().execute(userPhoto.toString());
+        //new DownloadFilesTask().execute(userPhoto.toString());
 
         ImageView settingBtn = headerView.findViewById(R.id.setting_button);
         settingBtn.setOnClickListener(new View.OnClickListener() {
@@ -156,7 +156,7 @@ public class Calendar_main extends AppCompatActivity implements NavigationView.O
         });
 
 
-        /*                 캘린더 설정                */
+        // 캘린더 설정
         calenderView = findViewById(R.id.calendarView);
         // calender set up
         calenderView.setTopbarVisible(true);
@@ -293,7 +293,7 @@ public class Calendar_main extends AppCompatActivity implements NavigationView.O
         return list;
     }
 
-    // 디비 값 변동 생길시 자동 업데이트 (근데 너무 자주함...)
+    // 디비 값 변동 생길시 자동 업데이트
     public void updateSchedules() {
         String id = null;
         FirebaseUser user1 = FirebaseAuth.getInstance().getCurrentUser();
@@ -448,7 +448,7 @@ public class Calendar_main extends AppCompatActivity implements NavigationView.O
 
     }
 
-    // 요 아래 전부다 프로필 사진 가져오는 거입니다.
+    // 프로필 사진 가져오기
     private class DownloadFilesTask extends AsyncTask<String, Void, Bitmap> {
         @Override
         protected Bitmap doInBackground(String... strings) {

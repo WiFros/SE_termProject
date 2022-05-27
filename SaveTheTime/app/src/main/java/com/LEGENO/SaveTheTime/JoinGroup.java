@@ -27,6 +27,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+//그룹 조인
 public class JoinGroup extends AppCompatActivity {
     EditText groupID;
     Button createBtn;

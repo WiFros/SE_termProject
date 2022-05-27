@@ -32,6 +32,7 @@ import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
+//스케줄 생성
 public class CreateSchedule extends AppCompatActivity {
     private static final String TAG = "tag";
     private static DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
@@ -53,7 +54,6 @@ public class CreateSchedule extends AppCompatActivity {
 
     //날짜, 시간 선택했는지 확인하기 위한 값
     int flag1 = 0;
-    int flag2 = 0;
 
 
     @Override
@@ -323,8 +323,6 @@ public class CreateSchedule extends AppCompatActivity {
                     Toast.makeText(this, "Fail", Toast.LENGTH_SHORT).show();
                 }
             }
-
-            //////////////////////////////////////////////
         }
     }
 }
