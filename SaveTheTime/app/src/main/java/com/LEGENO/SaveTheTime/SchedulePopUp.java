@@ -39,8 +39,8 @@ public class SchedulePopUp extends Activity {
 
         Intent ReceivedData = getIntent();
         schedule = (Schedule) ReceivedData.getSerializableExtra("schedule");
-        // intent로 넘어온 값 받아용~
 
+        // intent로 넘어온 값 받기
         popUpSheetName = findViewById(R.id.scheduleName);
         startPopUpSheetTime = findViewById(R.id.startscheduleTime);
         endPopUpSheetTime = findViewById(R.id.endscheduleTime);

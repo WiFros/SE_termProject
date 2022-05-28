@@ -79,7 +79,7 @@ public class Setting extends AppCompatActivity {
             }
         });
     }
-    // 일정 전체 삭
+    // 일정 전체 삭제
     public void deleteAll(){
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         FirebaseUser user  = FirebaseAuth.getInstance().getCurrentUser();
@@ -104,7 +104,7 @@ public class Setting extends AppCompatActivity {
 
     }
 
-    //deleteAll()에서 찾은 document id 로 다 지
+    //deleteAll()에서 찾은 document id 로 다 지우기
     public void deleteDocument(String docName){
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         db.collection(uid).document(docName)

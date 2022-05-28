@@ -84,7 +84,7 @@ public class Schedule implements Serializable {
 
     public String getEndTime() { return endTime; }
 
-    // Time 값 이용할떄는 이 함수로 출력 바랍니다...
+    // Time 값 이용할떄는 이 함수로 출력
     public LocalDateTime startTimeByClass() {
         LocalDateTime time = LocalDateTime.parse(startTime, DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         return time;
@@ -108,7 +108,6 @@ public class Schedule implements Serializable {
         return false;
     }
 
-    /*뭐뭐 필요한지 보고 추가해야 할듯 싶습니다.*/
     public String toString() {
         String str = title;
         str += " " + content;
