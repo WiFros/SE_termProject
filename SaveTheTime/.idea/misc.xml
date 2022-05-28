@@ -22,6 +22,9 @@
         <entry key="..\:/Users/82102/AndroidStudioProjects/SE_termProject/SaveTheTime/app/src/main/res/layout/drawer_header.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/82102/AndroidStudioProjects/SE_termProject/SaveTheTime/app/src/main/res/layout/register_acticity.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/82102/AndroidStudioProjects/SE_termProject/SaveTheTime/app/src/main/res/layout/schedule_bottom_sheet.xml" value="0.5342333654773385" />
+        <entry key="app/src/main/res/drawable/addbuttonshape.xml" value="0.1205" />
+        <entry key="app/src/main/res/layout/activity_join_group.xml" value="0.2735562310030395" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2735562310030395" />
       </map>
     </option>
   </component>

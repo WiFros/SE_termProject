@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
     private GoogleSignInClient mGoogleSignInClient;
     private String TAG = "mainTag";
     private FirebaseAuth mAuth;
-    private int RC_SIGN_IN = 123;
+    private int RC_SIGN_IN = 9001;
 
     private EditText emailText;
     private EditText pwText;
@@ -47,11 +47,11 @@ public class LoginActivity extends AppCompatActivity {
         // 구글 로그인
         // [START config_signin]
         // Configure Google Sign In
-//        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-//                .requestIdToken(getString(R.string.default_web_client_id))
-//                .requestEmail()
-//                .build();
-//        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestEmail()
+                .build();
+        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
         // [END config_signin]
 
         // [START initialize_auth]
@@ -198,6 +198,13 @@ public class LoginActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "Complete", Toast.LENGTH_LONG).show();
                     }
                 });
+    }
+    private void updateUI(FirebaseUser user) { //update ui code here
+        if (user != null) {
+            Intent intent = new Intent(this, Calendar_main.class);
+            startActivity(intent);
+            finish();
+        }
     }
 
     private void revokeAccess() {
