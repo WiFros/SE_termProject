@@ -33,6 +33,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140981461170:android:182ba94d2c1df892bba9ab",
+        "android_client_info": {
+          "package_name": "com.LEGENO.ShareOurSchedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140981461170-22njgek8lles21nn0qs8d98ncmg22qf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_TK4JCmPD3fln5Y0__Gkj1XcrVQ63wsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140981461170-22njgek8lles21nn0qs8d98ncmg22qf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

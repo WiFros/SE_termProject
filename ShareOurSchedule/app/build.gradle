@@ -8,7 +8,7 @@ android {
     apply plugin: 'com.google.gms.google-services'
 
     defaultConfig {
-        applicationId "com.LEGENO.SaveTheTime"
+        applicationId "com.LEGENO.ShareOurSchedule"
         minSdkVersion 26
         targetSdkVersion 32
         versionCode 2
@@ -43,18 +43,30 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:19.3.1'
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.test:runner:1.4.0'
 
-    testImplementation 'junit:junit:4.12'
-    testImplementation 'androidx.arch.core:core-testing:2.1.0'
-    testImplementation 'com.google.truth:truth:1.0.1'
-    testImplementation 'androidx.test.ext:junit:1.1.3'
-    testImplementation 'org.robolectric:robolectric:4.4'
-
-    androidTestImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.arch.core:core-testing:2.1.0'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-
+  //  testImplementation 'junit:junit:4.13.2'
+  //  testImplementation "androidx.arch.core:core-testing:2.1.0"
+  //  testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.2.1"
+  //  testImplementation "com.google.truth:truth:1.0.1"
+  //  testImplementation 'androidx.test.ext:junit:1.1.3'
+  //  testImplementation "org.robolectric:robolectric:4.4"
+  //  testImplementation 'androidx.test:core:1.4.0'
+  //  testImplementation 'org.mockito:mockito-core:2.19.0'
+  //
+  //  androidTestImplementation "junit:junit:4.13.2"
+  //  androidTestImplementation "androidx.arch.core:core-testing:2.1.0"
+  //  androidTestImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.2.1"
+  //  androidTestImplementation "com.google.truth:truth:1.0.1"
+  //  androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+  //  androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+  //
+  //  androidTestImplementation 'androidx.test:runner:1.4.0'
+  //  androidTestImplementation 'androidx.test:rules:1.4.0'
+  //  // Optional -- Hamcrest library
+  //  androidTestImplementation 'org.hamcrest:hamcrest-library:1.3'
+  //  // Optional -- UI testing with UI Automator
+  //  androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'
 }
 
 allprojects {
