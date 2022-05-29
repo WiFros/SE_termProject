@@ -785,6 +785,10 @@ color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
+color browser_actions_bg_grey
+color browser_actions_divider_color
+color browser_actions_text_color
+color browser_actions_title_color
 color button_material_dark
 color button_material_light
 color cardview_dark_background
@@ -1038,6 +1042,8 @@ dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
 dimen appcompat_dialog_background_inset
+dimen browser_actions_context_menu_max_width
+dimen browser_actions_context_menu_min_padding
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -1567,6 +1573,11 @@ id beginning
 id blocking
 id botsheetDate
 id bottom
+id browser_actions_header_text
+id browser_actions_menu_item_icon
+id browser_actions_menu_item_text
+id browser_actions_menu_items
+id browser_actions_menu_view
 id bt_cm_no
 id bt_cm_ok
 id bt_no
@@ -1977,6 +1988,8 @@ layout activity_recommend_schedule
 layout activity_schedule_pop_up
 layout activity_setting
 layout activity_withdrawal
+layout browser_actions_context_menu_page
+layout browser_actions_context_menu_row
 layout confirm_withdrawal
 layout conform_delete_all_shedule
 layout custom_dialog

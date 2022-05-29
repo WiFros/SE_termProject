@@ -4,7 +4,7 @@
             "outputFile": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/854e25a15858e17ba574de0766af398c/appcompat-1.1.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/1353d6cec610488e427d907a4c5f8055/appcompat-1.1.0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/76b553242922857e343d982e4922cf73/jetified-play-services-auth-18.0.0/res/values-watch-v20/values.xml",
+                    "source": "/Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2ff625bb0d604f6054e6e52a9fc5148a/jetified-play-services-auth-20.2.0/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

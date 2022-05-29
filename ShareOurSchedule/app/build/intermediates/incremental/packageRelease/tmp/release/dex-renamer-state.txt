@@ -1,7 +1,0 @@
-#Sun May 29 15:22:14 KST 2022
-base.1=/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
-path.1=classes2.dex
-base.0=/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
-renamed.1=classes2.dex
-renamed.0=classes.dex
-path.0=classes.dex
