@@ -44,7 +44,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/font_2"
             android:text="ScheduleTime : "
-            android:textColor="@color/loginIcon"
+            android:textColor="#558B2F"
             android:textSize="27sp" />
 
         <TextView
@@ -111,7 +111,7 @@
             android:layout_marginTop="15dp"
             android:fontFamily="@font/font_2"
             android:text="Schedule Contents"
-            android:textColor="@color/loginIcon"
+            android:textColor="#558B2F"
             android:textSize="27sp" />
 
         <LinearLayout
