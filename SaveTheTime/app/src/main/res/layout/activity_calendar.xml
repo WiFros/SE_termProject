@@ -25,6 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
         <com.prolificinteractive.materialcalendarview.MaterialCalendarView
             android:id="@+id/calendarView"
             android:layout_width="match_parent"
@@ -34,7 +35,6 @@
             tools:ignore="MissingConstraints">
 
         </com.prolificinteractive.materialcalendarview.MaterialCalendarView>
-
 
         <include layout="@layout/schedule_bottom_sheet" />
 

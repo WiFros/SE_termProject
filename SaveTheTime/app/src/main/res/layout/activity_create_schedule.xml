@@ -175,7 +175,7 @@
             android:fontFamily="@font/font_2"
             android:onClick="registerSchedule"
             android:text="등록"
-            android:textColor="#CCC6C6"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="30sp" />
     </LinearLayout>
 
