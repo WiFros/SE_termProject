@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item android:id="@+id/menu_info"
+        android:title="내정보"
+
+        app:showAsAction="withText"/>
+    <item android:id="@+id/menu_group1"
+        android:title="그룹1"
+        android:checkable ="true"
+        app:showAsAction="withText"/>
+    <item android:id="@+id/menu_group2"
+        android:title="그룹2"
+        android:checkable ="true"
+        app:showAsAction="withText"/>
+    <item android:id="@+id/menu_set"
+        android:title="그룹관리"
+        app:showAsAction="withText"/>
+    appAsAction="always"-->
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/me"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/option"
+        android:icon="@drawable/team"
+        android:title="Item"
+        app:showAsAction="always" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/group1"
+            android:title="그룹 1" />
+        <item
+            android:id="@+id/group2"
+            android:title="그룹 2" />
+        <item
+            android:id="@+id/group3"
+            android:title="그룹 3" />
+    </group>
+</menu>

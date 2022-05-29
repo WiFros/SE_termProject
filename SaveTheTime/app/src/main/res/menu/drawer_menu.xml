@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Group">
+        <menu>
+            <item
+                android:id="@+id/group1"
+                android:icon="@drawable/ic_group"
+                android:title="Group1"/>
+            <item
+                android:id="@+id/group2"
+                android:icon="@drawable/ic_group"
+                android:title="Group2"/>
+        </menu>
+    </item>
+    <item android:title="Add Group"
+        android:icon="@drawable/ic_group_add"
+        android:id="@+id/add_group"/>
+</menu>

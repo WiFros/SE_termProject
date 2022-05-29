@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "140981461170",
+    "project_id": "seterm2-68ed3",
+    "storage_bucket": "seterm2-68ed3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140981461170:android:b4d37ba48bdb466ebba9ab",
+        "android_client_info": {
+          "package_name": "com.LEGENO.ShareOurSchedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140981461170-22njgek8lles21nn0qs8d98ncmg22qf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_TK4JCmPD3fln5Y0__Gkj1XcrVQ63wsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140981461170-22njgek8lles21nn0qs8d98ncmg22qf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
