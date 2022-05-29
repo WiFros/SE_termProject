@@ -1,4 +1,4 @@
-package com.LEGENO.SaveTheTime;
+package com.LEGENO.SOS;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;

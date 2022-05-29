@@ -1,4 +1,4 @@
-package com.LEGENO.SaveTheTime;
+package com.LEGENO.SOS;
 
 public class GroupSchedule extends Schedule{
     private String groupID = "";

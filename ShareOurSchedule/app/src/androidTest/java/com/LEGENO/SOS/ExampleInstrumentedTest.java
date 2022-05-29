@@ -1,4 +1,4 @@
-package com.LEGENO.SaveTheTime;
+package com.LEGENO.SOS;
 
 import android.content.Context;
 

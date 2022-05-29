@@ -1,9 +1,8 @@
-package com.LEGENO.SaveTheTime;
+package com.LEGENO.SOS;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.media.Image;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -48,7 +47,6 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.function.Predicate;
 
 public class Calendar_main extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     /*DB 관련*/

@@ -1,4 +1,4 @@
-package com.LEGENO.SaveTheTime;
+package com.LEGENO.SOS;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,7 +11,6 @@ import android.os.Message;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
-import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -27,7 +26,6 @@ import com.google.firebase.firestore.QuerySnapshot;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Comparator;
 

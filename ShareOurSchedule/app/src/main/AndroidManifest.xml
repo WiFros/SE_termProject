@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.LEGENO.SaveTheTime">
+    package="com.LEGENO.SOS">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,42 +13,42 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".DeleteGroup"
+            android:name="com.LEGENO.SOS.DeleteGroup"
             android:theme="@style/AppTheme.MyDialog" />
         <activity
-            android:name=".ChangeGroupManager"
+            android:name="com.LEGENO.SOS.ChangeGroupManager"
             android:theme="@style/AppTheme.MyDialog" />
         <activity
-            android:name=".SchedulePopUp"
-            android:parentActivityName=".Calendar_main"
+            android:name="com.LEGENO.SOS.SchedulePopUp"
+            android:parentActivityName="com.LEGENO.SOS.Calendar_main"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity
-            android:name=".DateSelection"
+            android:name="com.LEGENO.SOS.DateSelection"
             android:theme="@style/AppTheme.MyDialog" />
-        <activity android:name=".CreateSchedule" />
-        <activity android:name=".JoinGroup" />
-        <activity android:name=".Loading" />
-        <activity android:name=".Calendar_main" />
-        <activity android:name=".ManageGroup" />
-        <activity android:name=".Setting" />
-        <activity android:name=".ConfirmWithdrawal" />
-        <activity android:name=".ConfirmDeleteAllSchedule" />
+        <activity android:name="com.LEGENO.SOS.CreateSchedule" />
+        <activity android:name="com.LEGENO.SOS.JoinGroup" />
+        <activity android:name="com.LEGENO.SOS.Loading" />
+        <activity android:name="com.LEGENO.SOS.Calendar_main" />
+        <activity android:name="com.LEGENO.SOS.ManageGroup" />
+        <activity android:name="com.LEGENO.SOS.Setting" />
+        <activity android:name="com.LEGENO.SOS.ConfirmWithdrawal" />
+        <activity android:name="com.LEGENO.SOS.ConfirmDeleteAllSchedule" />
         <activity
-            android:name=".CreateGroup"
-            android:theme="@style/AppTheme.MyDialog" />
-        <activity
-            android:name=".Withdrawal"
+            android:name="com.LEGENO.SOS.CreateGroup"
             android:theme="@style/AppTheme.MyDialog" />
         <activity
-            android:name=".ChangeGroupName"
+            android:name="com.LEGENO.SOS.Withdrawal"
             android:theme="@style/AppTheme.MyDialog" />
         <activity
-            android:name=".RecommendSchedule"
+            android:name="com.LEGENO.SOS.ChangeGroupName"
+            android:theme="@style/AppTheme.MyDialog" />
+        <activity
+            android:name="com.LEGENO.SOS.RecommendSchedule"
             android:theme="@style/AppTheme.MyDialog" />
 
 
 
-        <activity android:name=".LoginActivity"
+        <activity android:name="com.LEGENO.SOS.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -57,9 +57,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActicity"
+            android:name="com.LEGENO.SOS.RegisterActicity"
             android:label="@string/app_name"
-            android:parentActivityName=".LoginActivity" />
+            android:parentActivityName="com.LEGENO.SOS.LoginActivity" />
 
     </application>
 

@@ -1,4 +1,4 @@
-package com.LEGENO.SaveTheTime;
+package com.LEGENO.SOS;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,28 +7,27 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ConfirmDeleteAllSchedule extends AppCompatActivity {
+public class ConfirmWithdrawal extends AppCompatActivity {
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.conform_delete_all_shedule);
+        setContentView(R.layout.confirm_withdrawal);
 
 
-
-        //일정 전체삭제 기능 추가 요망
-        Button confirm=findViewById(R.id.confirm2);
+        //회원탈퇴 기능 추가 요망
+        Button confirm=findViewById(R.id.confirm1);
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"스케줄이 전부 삭제되었습니다.",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"회원탈퇴가 성공적으로 됐습니다.",Toast.LENGTH_SHORT).show();
                 finish();
             }
         });
 
         //취소버튼 누르면 창 종료
-        Button cancel=findViewById(R.id.cancel2);
+        Button cancel=findViewById(R.id.cancel1);
         cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
