@@ -1,0 +1,370 @@
+[
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_team.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/team.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_icon_foreground.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xhdpi/ic_icon_foreground.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_schedule_bottom_sheet.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/schedule_bottom_sheet.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_join_group.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_join_group.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_change_group_manager.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_change_group_manager.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_icon_round.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-hdpi/ic_icon_round.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_progressbar_progressbar1.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/progressbar_progressbar1.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_login.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_login_button.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/login_button.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_item.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/item.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_lock_black_24dp.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_lock_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_icon_foreground.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-hdpi/ic_icon_foreground.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_login_background.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/login_background.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_mail_black_24dp.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_mail_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_calendar_main.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_calendar_main.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_login_id_input.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/login_id_input.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_create_schedule.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_create_schedule.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_change_group.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_change_group.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_drawer_header.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/drawer_header.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_backgroundline.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/backgroundline.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_icon.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-mdpi/ic_icon.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_settings.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_baseline_arrow_drop_down_24.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_menu_listview.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/menu_listview.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_schedule.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_schedule.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_icon.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-anydpi-v26/ic_icon.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_person_black_24dp.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_add.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/add.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_calendar.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_calendar.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_confirm_withdrawal.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/confirm_withdrawal.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_buttonshape.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/buttonshape.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_icon_round.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xxhdpi/ic_icon_round.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_create_group.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_create_group.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_icon.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xxhdpi/ic_icon.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_textlines.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/textlines.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_icon_round.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-mdpi/ic_icon_round.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_delete_group.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_delete_group.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_date_selection.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_date_selection.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_group_member.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/group_member.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_person_outline_black_24dp.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_person_outline_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_icon_background.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_icon_background.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_setting.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/menu_appbar_menu.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/menu/appbar_menu.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_group.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_group.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_schedule_info_button.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/schedule_info_button.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_drawer_header_background.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/drawer_header_background.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_schedule_pop_up.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_schedule_pop_up.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_user.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/user.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_icon_foreground.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xxhdpi/ic_icon_foreground.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_event_dot.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/event_dot.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/font_font_2.ttf.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/font/font_2.ttf"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_email_black_24dp.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_email_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_app_name.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/app_name.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_icon_foreground.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xxxhdpi/ic_icon_foreground.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/font_font__2.ttf.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/font/font__2.ttf"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_recommend_schedule.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_recommend_schedule.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_register_acticity.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/register_acticity.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_lock_outline_black_24dp.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_lock_outline_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_icon_round.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xxxhdpi/ic_icon_round.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_icon_foreground.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-mdpi/ic_icon_foreground.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_icon.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-hdpi/ic_icon.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_icon.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xxxhdpi/ic_icon.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_me.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/me.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_conform_delete_all_shedule.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/conform_delete_all_shedule.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_withdrawal.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_withdrawal.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_icon_round.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-anydpi-v26/ic_icon_round.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_loading.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_loading.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_group_add.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_group_add.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_radio_button_checked_black_24dp.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_radio_button_checked_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_icon_round.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xhdpi/ic_icon_round.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_ic_person.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/ic_person.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_listview_item.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/listview_item.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_group_event_dot.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/group_event_dot.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_icon.png.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/mipmap-xhdpi/ic_icon.png"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_addbuttonshape.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/addbuttonshape.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/layout_activity_manage_group.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/layout/activity_manage_group.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/menu_drawer_menu.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/build/intermediates/res/merged/release/drawable_select_button.xml.flat",
+        "source": "/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/res/drawable/select_button.xml"
+    }
+]
