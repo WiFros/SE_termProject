@@ -11,6 +11,7 @@
     <TextView
         android:text="그룹명 변경"
         android:textSize="30dp"
+        android:textStyle="bold"
         android:fontFamily="@font/font_2"
         android:layout_gravity="center_horizontal"
         android:textColor="@color/colorPrimary"
