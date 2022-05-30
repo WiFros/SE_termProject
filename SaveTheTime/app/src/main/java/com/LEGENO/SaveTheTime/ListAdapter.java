@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+//List
 public class ListAdapter extends BaseAdapter {
 
     LayoutInflater inflater = null;

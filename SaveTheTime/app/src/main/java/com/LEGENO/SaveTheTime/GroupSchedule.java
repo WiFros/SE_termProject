@@ -1,5 +1,6 @@
 package com.LEGENO.SaveTheTime;
 
+//그룹 스케줄 설정
 public class GroupSchedule extends Schedule{
     private String groupID = "";
     private String groupName = "";

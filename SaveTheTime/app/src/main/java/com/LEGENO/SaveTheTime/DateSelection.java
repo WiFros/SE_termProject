@@ -31,7 +31,9 @@ public class DateSelection extends AppCompatActivity {
         calenderView.setTopbarVisible(true);
 
         calenderView.state().edit()
+                //일요일을 일주일 시작요일로 지정
                 .setFirstDayOfWeek(Calendar.SUNDAY)
+                //17년 1월 1일부터 30년 12월 31일까지
                 .setMinimumDate(CalendarDay.from(2017, 0, 1))
                 .setMaximumDate(CalendarDay.from(2030, 11, 31))
                 .setCalendarDisplayMode(CalendarMode.MONTHS)
