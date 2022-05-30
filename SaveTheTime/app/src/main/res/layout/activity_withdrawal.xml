@@ -15,6 +15,7 @@
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/font_2"
         android:text="그룹 탈퇴"
+        android:textStyle="bold"
         android:textColor="@color/colorPrimary"
         android:textSize="30dp" />
 
@@ -40,6 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/font_2"
+        android:textStyle="bold"
         android:text="주의, 관리자는 권한을 이전해야 합니다."
         android:textColor="#ff5555"
         android:textSize="20dp" />

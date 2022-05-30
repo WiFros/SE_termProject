@@ -1,0 +1,368 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.LEGENO.ShareOurSchedule"
+4    android:versionCode="2"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:19.3.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2a3af9c0263cdfcc507ce186bb272727/jetified-firebase-database-19.3.0/AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:19.3.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2a3af9c0263cdfcc507ce186bb272727/jetified-firebase-database-19.3.0/AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.android.gms:play-services-measurement-api:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/8a2969a19630c3212e4609752aadf724/jetified-play-services-measurement-api-17.4.1/AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/8a2969a19630c3212e4609752aadf724/jetified-play-services-measurement-api-17.4.1/AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:20.1.5] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7504a7ceb8b539b536d472f6ccf65131/jetified-firebase-iid-20.1.5/AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:20.1.5] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7504a7ceb8b539b536d472f6ccf65131/jetified-firebase-iid-20.1.5/AndroidManifest.xml:26:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:26:22-107
+19
+20    <application
+20-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:7:5-64:19
+21        android:allowBackup="true"
+21-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.2.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/69b5860cf768a8280088224872a5649f/core-1.2.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_icon"
+25-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:9:9-39
+26        android:label="@string/app_name"
+26-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:10:9-41
+27        android:roundIcon="@mipmap/ic_icon_round"
+27-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:11:9-50
+28        android:supportsRtl="true"
+28-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:12:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:13:9-40
+31        <activity
+31-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:15:9-17:56
+32            android:name="com.LEGENO.ShareOurSchedule.DeleteGroup"
+32-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:16:13-67
+33            android:theme="@style/AppTheme.MyDialog" />
+33-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:17:13-53
+34        <activity
+34-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:18:9-20:56
+35            android:name="com.LEGENO.ShareOurSchedule.ChangeGroupManager"
+35-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:19:13-74
+36            android:theme="@style/AppTheme.MyDialog" />
+36-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:20:13-53
+37        <activity
+37-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:21:9-24:61
+38            android:name="com.LEGENO.ShareOurSchedule.SchedulePopUp"
+38-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:22:13-69
+39            android:parentActivityName="com.LEGENO.ShareOurSchedule.Calendar_main"
+39-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:23:13-83
+40            android:theme="@style/Theme.AppCompat.Dialog" />
+40-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:24:13-58
+41        <activity
+41-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:25:9-27:56
+42            android:name="com.LEGENO.ShareOurSchedule.DateSelection"
+42-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:26:13-69
+43            android:theme="@style/AppTheme.MyDialog" />
+43-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:27:13-53
+44        <activity android:name="com.LEGENO.ShareOurSchedule.CreateSchedule" />
+44-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:28:9-79
+44-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:28:19-76
+45        <activity android:name="com.LEGENO.ShareOurSchedule.JoinGroup" />
+45-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:29:9-74
+45-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:29:19-71
+46        <activity android:name="com.LEGENO.ShareOurSchedule.Loading" />
+46-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:30:9-72
+46-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:30:19-69
+47        <activity android:name="com.LEGENO.ShareOurSchedule.Calendar_main" />
+47-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:31:9-78
+47-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:31:19-75
+48        <activity android:name="com.LEGENO.ShareOurSchedule.ManageGroup" />
+48-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:32:9-76
+48-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:32:19-73
+49        <activity android:name="com.LEGENO.ShareOurSchedule.Setting" />
+49-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:33:9-72
+49-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:33:19-69
+50        <activity android:name="com.LEGENO.ShareOurSchedule.ConfirmWithdrawal" />
+50-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:34:9-82
+50-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:34:19-79
+51        <activity android:name="com.LEGENO.ShareOurSchedule.ConfirmDeleteAllSchedule" />
+51-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:35:9-89
+51-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:35:19-86
+52        <activity
+52-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:36:9-38:56
+53            android:name="com.LEGENO.ShareOurSchedule.CreateGroup"
+53-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:37:13-67
+54            android:theme="@style/AppTheme.MyDialog" />
+54-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:38:13-53
+55        <activity
+55-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:39:9-41:56
+56            android:name="com.LEGENO.ShareOurSchedule.Withdrawal"
+56-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:40:13-66
+57            android:theme="@style/AppTheme.MyDialog" />
+57-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:41:13-53
+58        <activity
+58-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:42:9-44:56
+59            android:name="com.LEGENO.ShareOurSchedule.ChangeGroupName"
+59-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:43:13-71
+60            android:theme="@style/AppTheme.MyDialog" />
+60-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:44:13-53
+61        <activity
+61-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:45:9-47:56
+62            android:name="com.LEGENO.ShareOurSchedule.RecommendSchedule"
+62-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:46:13-73
+63            android:theme="@style/AppTheme.MyDialog" />
+63-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:47:13-53
+64        <activity
+64-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:51:9-58:20
+65            android:name="com.LEGENO.ShareOurSchedule.LoginActivity"
+65-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:51:19-75
+66            android:exported="true" >
+66-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:52:13-36
+67            <intent-filter>
+67-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:53:13-57:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:54:17-69
+68-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:54:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:56:17-77
+70-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:56:27-74
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:59:9-62:86
+74            android:name="com.LEGENO.ShareOurSchedule.RegisterActicity"
+74-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:60:13-72
+75            android:label="@string/app_name"
+75-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:61:13-45
+76            android:parentActivityName="com.LEGENO.ShareOurSchedule.LoginActivity" />
+76-->/Users/parkjeong-yeong/Desktop/Git/SE_termProject/ShareOurSchedule/app/src/main/AndroidManifest.xml:62:13-83
+77
+78        <service
+78-->[com.google.firebase:firebase-database:19.3.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2a3af9c0263cdfcc507ce186bb272727/jetified-firebase-database-19.3.0/AndroidManifest.xml:29:9-35:19
+79            android:name="com.google.firebase.components.ComponentDiscoveryService"
+79-->[com.google.firebase:firebase-database:19.3.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2a3af9c0263cdfcc507ce186bb272727/jetified-firebase-database-19.3.0/AndroidManifest.xml:30:13-84
+80            android:directBootAware="true"
+80-->[com.google.firebase:firebase-common:20.1.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7e984f15c8c59638db30ccc87c870945/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+81            android:exported="false" >
+81-->[com.google.firebase:firebase-database:19.3.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2a3af9c0263cdfcc507ce186bb272727/jetified-firebase-database-19.3.0/AndroidManifest.xml:31:13-37
+82            <meta-data
+82-->[com.google.firebase:firebase-database:19.3.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2a3af9c0263cdfcc507ce186bb272727/jetified-firebase-database-19.3.0/AndroidManifest.xml:32:13-34:85
+83                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+83-->[com.google.firebase:firebase-database:19.3.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2a3af9c0263cdfcc507ce186bb272727/jetified-firebase-database-19.3.0/AndroidManifest.xml:33:17-109
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-database:19.3.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2a3af9c0263cdfcc507ce186bb272727/jetified-firebase-database-19.3.0/AndroidManifest.xml:34:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-firestore:21.4.3] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/f3b67c72185b0f2a7262982ce6288630/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:20:13-22:85
+86                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+86-->[com.google.firebase:firebase-firestore:21.4.3] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/f3b67c72185b0f2a7262982ce6288630/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:21:17-111
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-firestore:21.4.3] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/f3b67c72185b0f2a7262982ce6288630/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:22:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:67:13-69:85
+89                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+89-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:68:17-109
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:69:17-82
+91            <meta-data
+91-->[com.google.android.gms:play-services-measurement-api:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/8a2969a19630c3212e4609752aadf724/jetified-play-services-measurement-api-17.4.1/AndroidManifest.xml:30:13-32:85
+92                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+92-->[com.google.android.gms:play-services-measurement-api:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/8a2969a19630c3212e4609752aadf724/jetified-play-services-measurement-api-17.4.1/AndroidManifest.xml:31:17-139
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.android.gms:play-services-measurement-api:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/8a2969a19630c3212e4609752aadf724/jetified-play-services-measurement-api-17.4.1/AndroidManifest.xml:32:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-iid:20.1.5] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7504a7ceb8b539b536d472f6ccf65131/jetified-firebase-iid-20.1.5/AndroidManifest.xml:32:13-34:85
+95                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+95-->[com.google.firebase:firebase-iid:20.1.5] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7504a7ceb8b539b536d472f6ccf65131/jetified-firebase-iid-20.1.5/AndroidManifest.xml:33:17-96
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-iid:20.1.5] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7504a7ceb8b539b536d472f6ccf65131/jetified-firebase-iid-20.1.5/AndroidManifest.xml:34:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-installations:16.2.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/0a356a9cec3ae360ac9cc1b769bd50aa/jetified-firebase-installations-16.2.1/AndroidManifest.xml:17:13-19:85
+98                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+98-->[com.google.firebase:firebase-installations:16.2.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/0a356a9cec3ae360ac9cc1b769bd50aa/jetified-firebase-installations-16.2.1/AndroidManifest.xml:18:17-127
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-installations:16.2.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/0a356a9cec3ae360ac9cc1b769bd50aa/jetified-firebase-installations-16.2.1/AndroidManifest.xml:19:17-82
+100        </service>
+101
+102        <activity
+102-->[com.google.android.gms:play-services-auth:20.2.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2ff625bb0d604f6054e6e52a9fc5148a/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+103            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+103-->[com.google.android.gms:play-services-auth:20.2.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2ff625bb0d604f6054e6e52a9fc5148a/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+104            android:excludeFromRecents="true"
+104-->[com.google.android.gms:play-services-auth:20.2.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2ff625bb0d604f6054e6e52a9fc5148a/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-auth:20.2.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2ff625bb0d604f6054e6e52a9fc5148a/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.android.gms:play-services-auth:20.2.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2ff625bb0d604f6054e6e52a9fc5148a/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+107        <!--
+108            Service handling Google Sign-In user revocation. For apps that do not integrate with
+109            Google Sign-In, this service will never be started.
+110        -->
+111        <service
+111-->[com.google.android.gms:play-services-auth:20.2.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2ff625bb0d604f6054e6e52a9fc5148a/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+112            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+112-->[com.google.android.gms:play-services-auth:20.2.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2ff625bb0d604f6054e6e52a9fc5148a/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+113            android:exported="true"
+113-->[com.google.android.gms:play-services-auth:20.2.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2ff625bb0d604f6054e6e52a9fc5148a/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+114            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+114-->[com.google.android.gms:play-services-auth:20.2.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2ff625bb0d604f6054e6e52a9fc5148a/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+115            android:visibleToInstantApps="true" />
+115-->[com.google.android.gms:play-services-auth:20.2.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/2ff625bb0d604f6054e6e52a9fc5148a/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+116
+117        <activity
+117-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:27:9-44:20
+118            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+118-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:28:13-80
+119            android:excludeFromRecents="true"
+119-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:29:13-46
+120            android:exported="true"
+120-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:30:13-36
+121            android:launchMode="singleTask"
+121-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:31:13-44
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+122-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:32:13-72
+123            <intent-filter>
+123-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:33:13-43:29
+124                <action android:name="android.intent.action.VIEW" />
+124-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:34:17-69
+124-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:34:25-66
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:36:17-76
+126-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:36:27-73
+127                <category android:name="android.intent.category.BROWSABLE" />
+127-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:37:17-78
+127-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:37:27-75
+128
+129                <data
+129-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:39:17-42:51
+130                    android:host="firebase.auth"
+130-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:40:21-49
+131                    android:path="/"
+131-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:41:21-37
+132                    android:scheme="genericidp" />
+132-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:42:21-48
+133            </intent-filter>
+134        </activity>
+135        <activity
+135-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:45:9-62:20
+136            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+136-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:46:13-79
+137            android:excludeFromRecents="true"
+137-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:47:13-46
+138            android:exported="true"
+138-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:48:13-36
+139            android:launchMode="singleTask"
+139-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:49:13-44
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+140-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:50:13-72
+141            <intent-filter>
+141-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:51:13-61:29
+142                <action android:name="android.intent.action.VIEW" />
+142-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:34:17-69
+142-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:34:25-66
+143
+144                <category android:name="android.intent.category.DEFAULT" />
+144-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:36:17-76
+144-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:36:27-73
+145                <category android:name="android.intent.category.BROWSABLE" />
+145-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:37:17-78
+145-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:37:27-75
+146
+147                <data
+147-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:39:17-42:51
+148                    android:host="firebase.auth"
+148-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:40:21-49
+149                    android:path="/"
+149-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:41:21-37
+150                    android:scheme="recaptcha" />
+150-->[com.google.firebase:firebase-auth:21.0.4] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/a558adfaed93fe7b7b758d2de7f758fc/jetified-firebase-auth-21.0.4/AndroidManifest.xml:42:21-48
+151            </intent-filter>
+152        </activity>
+153
+154        <receiver
+154-->[com.google.firebase:firebase-iid:20.1.5] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7504a7ceb8b539b536d472f6ccf65131/jetified-firebase-iid-20.1.5/AndroidManifest.xml:37:9-44:20
+155            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+155-->[com.google.firebase:firebase-iid:20.1.5] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7504a7ceb8b539b536d472f6ccf65131/jetified-firebase-iid-20.1.5/AndroidManifest.xml:38:13-78
+156            android:exported="true"
+156-->[com.google.firebase:firebase-iid:20.1.5] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7504a7ceb8b539b536d472f6ccf65131/jetified-firebase-iid-20.1.5/AndroidManifest.xml:39:13-36
+157            android:permission="com.google.android.c2dm.permission.SEND" >
+157-->[com.google.firebase:firebase-iid:20.1.5] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7504a7ceb8b539b536d472f6ccf65131/jetified-firebase-iid-20.1.5/AndroidManifest.xml:40:13-73
+158            <intent-filter>
+158-->[com.google.firebase:firebase-iid:20.1.5] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7504a7ceb8b539b536d472f6ccf65131/jetified-firebase-iid-20.1.5/AndroidManifest.xml:41:13-43:29
+159                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+159-->[com.google.firebase:firebase-iid:20.1.5] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7504a7ceb8b539b536d472f6ccf65131/jetified-firebase-iid-20.1.5/AndroidManifest.xml:42:17-81
+159-->[com.google.firebase:firebase-iid:20.1.5] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7504a7ceb8b539b536d472f6ccf65131/jetified-firebase-iid-20.1.5/AndroidManifest.xml:42:25-78
+160            </intent-filter>
+161        </receiver>
+162
+163        <activity
+163-->[com.google.android.gms:play-services-base:18.0.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/fee3cd58e150d88bca8a121253fd8011/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+164            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+164-->[com.google.android.gms:play-services-base:18.0.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/fee3cd58e150d88bca8a121253fd8011/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+165            android:exported="false"
+165-->[com.google.android.gms:play-services-base:18.0.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/fee3cd58e150d88bca8a121253fd8011/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+166            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+166-->[com.google.android.gms:play-services-base:18.0.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/fee3cd58e150d88bca8a121253fd8011/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+167
+168        <receiver
+168-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:29:9-33:20
+169            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+169-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:30:13-85
+170            android:enabled="true"
+170-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:31:13-35
+171            android:exported="false" >
+171-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:32:13-37
+172        </receiver>
+173
+174        <service
+174-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:35:9-38:40
+175            android:name="com.google.android.gms.measurement.AppMeasurementService"
+175-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:36:13-84
+176            android:enabled="true"
+176-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:37:13-35
+177            android:exported="false" />
+177-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:38:13-37
+178        <service
+178-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:39:9-43:72
+179            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+179-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:40:13-87
+180            android:enabled="true"
+180-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:41:13-35
+181            android:exported="false"
+181-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:42:13-37
+182            android:permission="android.permission.BIND_JOB_SERVICE" />
+182-->[com.google.android.gms:play-services-measurement:17.4.1] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/801b2f6b1ec126c681768e48a7e208c8/jetified-play-services-measurement-17.4.1/AndroidManifest.xml:43:13-69
+183
+184        <provider
+184-->[com.google.firebase:firebase-common:20.1.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7e984f15c8c59638db30ccc87c870945/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+185            android:name="com.google.firebase.provider.FirebaseInitProvider"
+185-->[com.google.firebase:firebase-common:20.1.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7e984f15c8c59638db30ccc87c870945/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+186            android:authorities="com.LEGENO.ShareOurSchedule.firebaseinitprovider"
+186-->[com.google.firebase:firebase-common:20.1.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7e984f15c8c59638db30ccc87c870945/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+187            android:directBootAware="true"
+187-->[com.google.firebase:firebase-common:20.1.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7e984f15c8c59638db30ccc87c870945/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+188            android:exported="false"
+188-->[com.google.firebase:firebase-common:20.1.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7e984f15c8c59638db30ccc87c870945/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+189            android:initOrder="100" />
+189-->[com.google.firebase:firebase-common:20.1.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/7e984f15c8c59638db30ccc87c870945/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+190
+191        <meta-data
+191-->[com.google.android.gms:play-services-basement:18.0.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/bdacd2ce991c3cf2cfe196352b9a0269/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+192            android:name="com.google.android.gms.version"
+192-->[com.google.android.gms:play-services-basement:18.0.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/bdacd2ce991c3cf2cfe196352b9a0269/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+193            android:value="@integer/google_play_services_version" />
+193-->[com.google.android.gms:play-services-basement:18.0.0] /Users/parkjeong-yeong/.gradle/caches/transforms-2/files-2.1/bdacd2ce991c3cf2cfe196352b9a0269/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+194    </application>
+195
+196</manifest>
