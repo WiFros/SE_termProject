@@ -17,7 +17,7 @@ public class GroupSchedule extends Schedule{
         this.groupID = groupID;
         this.groupName = groupName;
     }
-
+   // 그룹 스케쥴 오브젝트
     GroupSchedule(String groupID, String groupName, Schedule schedule){
         super(schedule);
         this.groupID = groupID;
